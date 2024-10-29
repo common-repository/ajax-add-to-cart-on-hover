@@ -1,0 +1,292 @@
+
+.animate .testing:hover .shop-badge{
+
+    opacity: 1;
+
+    transition: all 0.6s 0.2s;
+
+}
+
+
+
+.testing:hover .shop-badge{
+
+    opacity: 1;
+
+    transition: all 0.6s 0.2s;
+
+}
+
+
+
+
+
+
+
+.shop-badge {
+
+    position: absolute !important;
+
+    top: 45%;
+
+    width: 100%;
+
+    text-align: center;
+
+    z-index: 4;
+
+    opacity: 0;
+
+    padding-bottom: 1rem;
+
+    padding-top: 1rem;
+
+    position: absolute;
+
+    width: 93.6%;
+
+    background: rgba(0,0,0,0.7);
+
+}
+
+.test_single_add_to_cart_button{
+
+    background-color: transparent;
+
+    border: 1px solid #ffffff;
+
+    font-size: 14px !important;
+
+    height: 2.5rem !important;
+
+    line-height: 2.5rem !important;
+
+    min-width: 2.5rem;
+
+    padding: 0rem 0.5rem 1rem;
+
+    vertical-align: top;
+
+    margin-left: 5px;
+
+    color: #ffffff;
+
+    position: relative;
+
+}
+
+.test_single_add_to_cart_button:hover{
+
+    background-color: #ffffff ;
+
+    border-color: #ffffff;
+
+    color: #000000 !important;
+
+    cursor: pointer;
+}
+
+
+
+
+
+.shop-badge h5 {
+
+    color: #ffffff;
+
+    flex: 0 0 100%;
+
+    font-size: 1.1rem !important;
+
+    margin: 0 0 0.5rem !important;
+
+    font-weight: 400 !important;
+
+    letter-spacing: 0.025rem;
+
+    line-height: 1.1;
+
+}
+
+
+
+.test_single_add_to_cart_button:hover .disabled {
+    cursor: default !important;
+    background-color: transparent !important;
+    color:#ffffff !important;
+}
+
+.disabled{
+    cursor: default !important;
+    background-color: transparent !important;
+    color:#ffffff !important;
+}
+.disabled:hover{
+    cursor: default !important;
+    background-color: transparent !important;
+    color:#ffffff !important;
+}
+
+
+
+a.added_to_cart .wc-forward {
+
+    display:none !important;
+
+}
+
+.loading{
+
+    outline: #ffffff !important;
+
+    opacity: 0.7;
+
+}
+
+.added{
+
+    outline: #ffffff;
+
+}
+
+
+
+
+
+.full-tick-anim {
+
+    background: rgba(255,255,255,0.8);
+
+    height: 80%;
+
+    left: 0;
+
+    position: absolute;
+
+    top: 0;
+
+    width: 100%;
+
+    z-index: 4;
+
+    text-align: center;
+
+}
+
+.full-tick-anim-outstock{
+    background: rgba(255,255,255,0.8);
+    height: 80%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 4;
+    text-align: center;
+}
+
+svg:not(:root) {
+
+    overflow: hidden;
+
+    height: 30%;
+
+    width: 100%;
+
+    margin-top: 25%;
+
+}
+
+.fs-next-svg{
+    overflow : hidden;
+    height: unset !important;
+    width: unset !important;
+    margin-top: unset !important;
+}
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+    .test_single_add_to_cart_button {
+        background-color: transparent !important;
+        border: 1px solid #ffffff !important;
+        font-size: 12px !important;
+        height: 2.5rem !important;
+        line-height: 2.5rem !important;
+        min-width: 2.5rem;
+        padding: 0rem 0.5rem 0.5rem;
+        vertical-align: top;
+        margin-left: 5px;
+        margin-bottom: 5px;
+        color: #ffffff;
+    }
+}
+
+.test_single_add_to_cart_button:hover .closebox {
+    color: #000000;
+}
+.quickbuy__unavailable {
+    opacity: 0.45;
+}
+
+
+.add_success{
+    background-color: #009ace !important;
+    border-color: #009ace !important;
+}
+.add_loading_cart{
+    background-color: #000 !important;
+    border-color: #000 !important;
+    color: #000;
+}
+
+.add-success {
+    display: block;
+    width: 106%;
+    height: 106%;
+    z-index: 2;
+    transition: 0.2s all;
+    position: absolute;
+    top: -1px;
+    bottom: 0;
+    right: 0px;
+    left: -1px;
+    background-color: #009ace !important;
+    border-color: #009ace !important;
+}
+
+.add-loader:hover{
+    background-color: unset !important;
+    background-color: #000 !important;
+}
+
+.add-loader{
+    background-color: unset !important;
+    background-color: #000 !important;
+}
+
+.add_loder_back{
+    background-color: #000 !important;
+    border-color: #000 !important;
+}
+
+.loder-gif{
+    width: 70% !important;
+    height: auto !important;
+    opacity: 1;
+    position: absolute;
+    top: 5px;
+    left: 6px;
+    right: 0px;
+    bottom: 0;
+}
+
+
+
+.test_single_add_to_cart_button .add-loader{
+    background-color: #000000 !important;
+}
+
+
+.test_single_add_to_cart_button:hover .add_loading_cart{
+    background-color: #000 !important;
+}
